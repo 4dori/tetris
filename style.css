@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(29, 28, 28);
+}
+body {
+    background-color: rgb(29, 28, 28);
+}
+#window {
+    width: 200px;
+    height: 404px;
+    border: solid;
+    margin: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#stats {
+    display: inline-block;
+    color: rgb(21, 21, 21);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    transition: 0.2s;
+    background-color: bisque;
+}
+.flex-container > div {
+    background-color: rgb(59, 50, 50);
+    width: 20px;
+    height: 20px;
+}
+#play {
+    display: inline-block;
+    color: rgb(21, 21, 21);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+  } 
+  .image {
+    width: 40px;
+    height: 40px;
+  }
